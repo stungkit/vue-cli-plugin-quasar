@@ -68,7 +68,8 @@ module.exports = (api, options) => {
         __QUASAR_SSR__: false,
         __QUASAR_SSR_SERVER__: false,
         __QUASAR_SSR_CLIENT__: false,
-        __QUASAR_SSR_PWA__: false
+        __QUASAR_SSR_PWA__: false,
+        __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false
       }])
 
     chain.performance.maxEntrypointSize(512000)
