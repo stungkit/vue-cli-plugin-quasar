@@ -4,7 +4,7 @@ const plugins = [
 
 if (process.env.QUASAR_RTL) {
   plugins.push(
-    require('postcss-rtl')({})
+    require('postcss-rtlcss')({})
   )
 }
 

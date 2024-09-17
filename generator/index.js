@@ -50,7 +50,7 @@ module.exports = (api, opts) => {
   }
 
   if (opts.quasar.rtlSupport) {
-    deps.devDependencies['postcss-rtl'] = '^5.4.0'
+    deps.devDependencies['postcss-rtlcss'] = '^5.4.0'
   }
 
   api.extendPackage(deps)
